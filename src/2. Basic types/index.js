@@ -1,5 +1,5 @@
 // 6. Arrays
-var list = [1, 2, 3];
+var list1 = [1, 2, 3];
 var listAnother = [1, 2, 3]; // Generic type
 // 7. Array Tuples - Смешанные
 // Multiple lines

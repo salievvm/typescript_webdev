@@ -1,5 +1,5 @@
 // 6. Arrays
-let list: number[] = [1, 2, 3];
+let list1: number[] = [1, 2, 3];
 
 let listAnother: Array<number> = [1, 2, 3]; // Generic type
 
