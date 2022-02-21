@@ -1,9 +1,11 @@
 {
     "compilerOptions": {
+        "experimentalDecorators": true,
         "allowJs": true,
         "target": "es5"
     },
     "include": [
         "./src/**/*"
-    ]
+    ],
+    "experimentalDecorators": true
 }
