@@ -1,3 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Generic = void 0;
 // Общие типы - самоподставляются
 var Generic;
 (function (Generic) {
@@ -30,4 +33,4 @@ var Generic;
     console.log(user3);
     console.log(user3.getPass());
     console.log(user3.getSecret());
-})(Generic || (Generic = {}));
+})(Generic = exports.Generic || (exports.Generic = {}));

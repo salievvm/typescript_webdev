@@ -1,5 +1,5 @@
 // Общие типы - самоподставляются
-namespace Generic {
+export namespace Generic {
     const getter = <T>(data: T): T => data;
 
     function getterEs5<T>(data: T): T {
@@ -11,7 +11,7 @@ namespace Generic {
     console.log(getter<Array<number>>([1,2,3]).length);
     console.log(getter<{name: string, age: string}>({name: 'name', age: 'name'}));
 
-    interface IUser {
+    export interface IUser {
         name: any
         age: any
         getPass(): string
